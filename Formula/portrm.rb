@@ -1,22 +1,22 @@
 class Portrm < Formula
   desc "portrm - Fast, cross-platform CLI to inspect ports, understand processes, and recover broken dev environments"
   homepage "https://portrm.dev"
-  version "1.0.1"
+  version "1.0.2"
   license "MIT"
 
   on_macos do
     if Hardware::CPU.arm?
-      url "https://github.com/abhishekayu/portrm/releases/download/v1.0.1/portrm-darwin-arm64.tar.gz"
-      sha256 "bbddb47f4344254ef4e7d6047013596bf609699f9b7a62f85128d6bb335c0987"
+      url "https://github.com/abhishekayu/portrm/releases/download/v1.0.2/portrm-darwin-arm64.tar.gz"
+      sha256 "d73aac5ee3df36c63a6a59a80db3c46bfe41623b5cef66949f4084d68312b9a7"
     else
-      url "https://github.com/abhishekayu/portrm/releases/download/v1.0.1/portrm-darwin-amd64.tar.gz"
-      sha256 "cd283df76e347d83d0b61aced39031d2c431621d5288886cbb64f09c3d2c434f"
+      url "https://github.com/abhishekayu/portrm/releases/download/v1.0.2/portrm-darwin-amd64.tar.gz"
+      sha256 "1a6263b48751ab72ca4a695d571aab23d2479c544b1175a16ce38c244a545dd9"
     end
   end
 
   on_linux do
-    url "https://github.com/abhishekayu/portrm/releases/download/v1.0.1/portrm-linux-amd64.tar.gz"
-    sha256 "2113b5a19e67ec59e77c7301c52b70022a560603d381248d77c5b0e26b3aeb13"
+    url "https://github.com/abhishekayu/portrm/releases/download/v1.0.2/portrm-linux-amd64.tar.gz"
+    sha256 "49036fc2120f1c69e0bb2a495fe5f4267996fc2f93f83c892a39e6f3a7d958f8"
   end
 
   def install
