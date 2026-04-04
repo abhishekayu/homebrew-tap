@@ -7,16 +7,16 @@ class Portrm < Formula
   on_macos do
     if Hardware::CPU.arm?
       url "https://github.com/abhishekayu/portrm/releases/download/v1.0.0/portrm-darwin-arm64.tar.gz"
-      sha256 "15de0084e26066cb037d76edff191930992cb8fc487ac7d780ce9aabcd4aa6a5"
+      sha256 "835b8caacbe3c63d17f467c629c6facb2c38ff701dd1f4d0bd286133d4202dfa"
     else
       url "https://github.com/abhishekayu/portrm/releases/download/v1.0.0/portrm-darwin-amd64.tar.gz"
-      sha256 "23f58b742175c8a6458d807943c794cc3cbf9e93474167790ad748366a78bbe3"
+      sha256 "8ebc63ae10892cda1fe4cf74de19f4ad280a3955046eb4537c563d6e413525f7"
     end
   end
 
   on_linux do
     url "https://github.com/abhishekayu/portrm/releases/download/v1.0.0/portrm-linux-amd64.tar.gz"
-    sha256 "3e9ab419a616d6a05424c1b6a8cf9a09069c50afcac288307a5bd4064f00d40a"
+    sha256 "c6f81b758b17279ef4dcb8313365db40f6bf5f3d02a28c02adde76464f5de0ac"
   end
 
   def install
